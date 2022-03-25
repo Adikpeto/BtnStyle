@@ -1,0 +1,265 @@
+@import url("font-importer.scss");
+
+:root {
+    --pr-ridge-border-color: rgb(2, 141, 255);
+    --wg-ridge-color: #F2CB05;
+    --dg-ridge-color: rgba(250, 59, 59, 0.925);
+    --dk-ridge-color: #505050;
+    --lg-ridge-color: #eeeeee;
+    --pr-color: dodgerblue;
+    --dg-color: rgba(250, 59, 59, 0.925);
+    --lg-color: #ffffff;
+    --wg-color: #F2CB05;
+    --dk-color: #000000;
+
+}
+
+.button-custom {
+    padding: {
+        left: 1rem !important;
+        right: 1rem !important;
+        top: 0.5rem !important;
+        bottom: 0.5rem !important;
+
+    }
+
+    ;
+    font-weight: bolder;
+    border-radius: 10rem;
+    width:fit-content !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.button-bridge-pr {
+    padding: {
+        left: 0.5rem !important;
+        right: 0.5rem !important;
+        top: 0.2rem !important;
+        bottom: 0.2rem !important;
+
+    }
+
+    ;
+    font-weight: bolder;
+    border-radius: 10rem !important;
+    width:fit-content !important;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5rem var(--pr-ridge-border-color);
+    border-style:ridge;
+    background-color: var(--pr-color) !important;
+    color:white;
+}
+
+.button-bridge-pr:hover {
+    border-style: groove;
+}
+
+
+
+
+
+
+
+.button-bridge-wg {
+    padding: {
+        left: 0.5rem !important;
+        right: 0.5rem !important;
+        top: 0.2rem !important;
+        bottom: 0.2rem !important;
+
+    }
+
+    ;
+    font-weight: bolder;
+    border-radius: 10rem !important;
+    width:fit-content !important;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5rem var(--wg-ridge-color);
+    border-style:ridge;
+    background-color: var(--wg-color) !important;
+    color:white;
+}
+
+.button-bridge-wg:hover {
+    border-style: groove;
+}
+
+
+
+.button-bridge-dg {
+    padding: {
+        left: 0.5rem !important;
+        right: 0.5rem !important;
+        top: 0.2rem !important;
+        bottom: 0.2rem !important;
+
+    }
+
+    ;
+    font-weight: bolder;
+    border-radius: 10rem !important;
+    width:fit-content !important;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5rem var(--dg-ridge-color);
+    border-style:ridge;
+    background-color: var(--dg-color) !important;
+    color:white;
+}
+
+.button-bridge-dg:hover {
+    border-style: groove;
+}
+
+
+
+.button-bridge-dk {
+    padding: {
+        left: 0.5rem !important;
+        right: 0.5rem !important;
+        top: 0.2rem !important;
+        bottom: 0.2rem !important;
+
+    }
+
+    ;
+    font-weight: bolder;
+    border-radius: 10rem !important;
+    width:fit-content !important;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5rem var(--dk-ridge-color);
+    border-style:ridge;
+    background-color: var(--dk-color) !important;
+    color:white;
+}
+
+.button-bridge-dk:hover {
+    border-style: groove;
+}
+
+
+
+
+
+.button-bridge-lg {
+    padding: {
+        left: 0.5rem !important;
+        right: 0.5rem !important;
+        top: 0.2rem !important;
+        bottom: 0.2rem !important;
+
+    }
+
+    ;
+    font-weight: bolder;
+    border-radius: 10rem !important;
+    width:fit-content !important;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5rem var(--lg-ridge-color);
+    border-style:ridge;
+    background-color: var(--lg-color) !important;
+    color:rgb(0, 0, 0);
+}
+
+.button-bridge-lg:hover {
+    border-style: groove;
+}
+
+.extend-btn {
+    transition: letter-spacing 1s !important;
+}
+
+.extend-btn:hover {
+    transition: letter-spacing 1s !important;
+    letter-spacing: 1rem !important;
+}
+
+
+
+
+.msbox {
+
+    transition : all 2s ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+    .svg-msbox {
+        margin-right: 10px;
+    }
+
+    .svg-msbox svg {
+        fill: white;
+        color: white;
+        width: 20px;
+        height: 20px;
+        font-weight: 700;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+.button {
+    padding: {
+        left: 1rem !important;
+        right: 1rem !important;
+        top: 0.5rem !important;
+        bottom: 0.5rem !important;
+
+    }
+
+    ;
+    font-weight: bolder;
+    border-radius: 10rem !important;
+    width:fit-content !important;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.button-pr {
+    background-color: var(--pr-color) !important;
+    color: white;
+}
+
+.button-dg {
+    background-color: var(--dg-color) !important;
+    color: white;
+}
+
+.button-wg {
+    background-color: var(--wg-color) !important;
+    color: white;
+}
+
+.button-dk {
+    background-color: var(--dk-color) !important;
+    color: white;
+}
+
+.button-lg {
+    background-color: var(--lg-color) !important;
+    color: rgb(0, 0, 0) !important;
+}
